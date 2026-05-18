@@ -86,3 +86,29 @@ Compared to Tutorial 2, which used a terminal-based websocket chat, this tutoria
 
 This experiment helped me understand how asynchronous programming, websocket communication, and frontend rendering can work together inside a realtime web application.
 
+---
+
+# Experiment 3.2: Be Creative!
+
+## Description
+
+In this experiment, I redesigned the YewChat webclient into a more expressive realtime chat studio called **YewChat Lab**. The goal was to make the application feel more polished and personal while still keeping the websocket chat functionality from the previous experiment.
+
+I added a creative login lobby, generated avatar previews, clearer onboarding text, and a redesigned chat room interface. The chat room now has an online user sidebar, message counters, a room mood section, creative prompt cards, an empty-state illustration using generated avatars, right-aligned messages for the current user, and Enter-to-send behavior.
+
+---
+
+## Result
+
+![Experiment 3.2 - Creative YewChat Lab](screenshots/experiment-3.2.png)
+
+---
+
+## Explanation
+
+The creative update focuses on improving both appearance and interaction. The login page now introduces the application as a small realtime chat studio and gives users a clearer reason to enter the room. I also added avatar images so the page feels less empty and more connected to the identity of each chat participant.
+
+Inside the chat page, I changed the layout from a plain chat screen into a studio-like workspace. The left sidebar shows online users and room mood badges, the center area shows the conversation, and the right panel contains creative prompts that can help users start a conversation. These additions make the application more engaging without changing the core websocket protocol.
+
+I also improved the message sending experience. Empty messages are ignored, users can press Enter to send a message, and messages from the current user are visually separated from messages sent by others. This makes the chat easier to scan and closer to a real messaging application.
+
