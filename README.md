@@ -101,6 +101,8 @@ I added a creative login lobby, generated avatar previews, clearer onboarding te
 ## Result
 
 ![Experiment 3.2 - Creative YewChat Lab](screenshots/experiment-3.2.png)
+![Experiment 3.2 - Creative YewChat Lab](screenshots/experiment-3.3.png)
+
 
 ---
 
